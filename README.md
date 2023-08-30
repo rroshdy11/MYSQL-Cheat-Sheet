@@ -44,7 +44,7 @@ SHOW TABLES;
 
 # 1-DCL (Data Controlling Language) :
 >  [!NOTE]  
-> ## $\color{blue}{ is\ a\ query\ language\ that\ allows\ users\ to\ retrieve\ and\ edit\ data\ held\ in\ databases.}$
+> ## is a query language that allows users to retrieve and edit data held in databases.
 
 ## Grant All Priveleges On All Databases
 
@@ -69,9 +69,9 @@ REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'someuser'@'localhost';
 
 # 2-DDL (Data Definition Language) :
 >  [!NOTE]  
-> ## $\color{blue}{ is\ a\ subset\ of\ SQL\ and\ a\ part\ of\ DBMS(Database Management System).\ }$
-> ## $\color{blue}{ DDL\ consists\ of\ Commands\ to\ commands\ like\ CREATE,\ ALTER,\ TRUNCATE\ and\ DROP.\}$
-> ## $\color{blue}{These\ commands\ are\ used\ to\ create\ or\ modify\ or\ delete\ the\ tables,\ databases\ or\ users\ in\ SQL.\}$
+> ## is a subset of SQL and a part of DBMS(Database Management System). 
+> ## DDL consists of Commands to commands like CREATE, ALTER, TRUNCATE and DROP.
+> ## These commands are used to create or modify or delete the tables, databases or users in SQL.
 
 ## Create User
 

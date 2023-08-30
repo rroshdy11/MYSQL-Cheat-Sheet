@@ -334,6 +334,13 @@ SELECT age, COUNT(age) FROM users WHERE age > 20 GROUP BY age;
 SELECT age, COUNT(age) FROM users GROUP BY age HAVING count(age) >=2;
 
 ```
+# 4-Indexes :
+>  [!NOTE]  
+> ### a quick lookup table for finding records users need to search frequently.
+> ## Advantages
+> ### increased performance in searching for records, sorting records, grouping records, or maintaining a unique column.
+> ## Disadvantages
+>  increased disk space, slower data modification, and updating records in the clustered index.
 
 
 ## Create & Remove Index
